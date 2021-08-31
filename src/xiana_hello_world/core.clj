@@ -1,4 +1,4 @@
-(ns framework.app.hello-word
+(ns xiana-hello-word.core
   (:require
    ;; mandatory modules to build/run any web application
    [xiana.core :as xiana]

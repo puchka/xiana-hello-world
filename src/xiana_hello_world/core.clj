@@ -1,9 +1,10 @@
-(ns xiana-hello-word.core
+(ns xiana-hello-world.core
   (:require
    ;; mandatory modules to build/run any web application
    [xiana.core :as xiana]
    [framework.route.core :as route]
-   [framework.webserver.core :as webserver]))
+   [framework.webserver.core :as webserver])
+  (:gen-class))
 
 ;; application route definitions
 (def app-routes
